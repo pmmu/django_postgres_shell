@@ -59,9 +59,9 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'openrave_db',
+        'NAME': 'openrave_website',
 	'USER': 'openrave',
-	'PASSWORD': 'restpass',
+	'PASSWORD': 'testpass',
 	'HOST': '',
     }
 }
